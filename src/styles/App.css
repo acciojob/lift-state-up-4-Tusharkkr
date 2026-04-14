@@ -1,1 +1,25 @@
 
+.parent{
+    width: 50vw;
+    background-color: greenyellow;
+    min-height: 30vh;
+    padding: 20px;
+    form{
+        margin-bottom: 10px;
+        label,input,button{
+            font-size: 17px;
+            margin-left: 2px;
+            padding: 5px;
+        }
+    }
+    li{
+        font-size: 20px;
+    }
+}
+
+.child{
+    width: 95%;
+    background-color: rgb(199, 92, 26);
+    min-height: 10vh;
+    padding: 10px;
+}
